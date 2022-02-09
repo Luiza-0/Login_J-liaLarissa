@@ -1,0 +1,68 @@
+
+
+
+.group:before,
+.group:after {
+	content: ;
+	display: table;
+}
+
+.group:after{
+	clear: both;
+}
+
+.group{
+	background-image: url('imagens/fundo.png');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	padding: 100px 0;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#capa{
+	position:relative;
+	height: 800px;
+	width: 600px;
+    float: left;
+}
+
+#principal{
+	height: 800px;
+	width: 600px;
+	padding-top: 50px;
+	font-family: "century gothic";
+	text-align: center;
+	float: right;
+
+}
+
+img{
+	height: 800px;
+	width: 600px;
+}
+
+div{
+	display: inline-block;
+}
+
+form{
+	padding: 1em;
+    border-radius: 1em;
+    text-decoration-color: white;
+
+}
+
+input, textarea {
+	margin-top: 2px;
+    font-family: "century gothic";
+    font-size: 20px;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #8F62F7;
+    background-color: #D4C4F7; opacity: 0.5;
+ }
+
